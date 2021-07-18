@@ -10,8 +10,7 @@ import {
 import { IGif } from "@giphy/js-types";
 const Giphy = () => {
   const [modalGif, setModalGif] = useState<IGif>();
-  const [search, setSearch] = useState("");
-  const [isError, setIsError] = useState(false);
+
   const {
     giphy,
 } = useContext<IContext>(StoreContext);
